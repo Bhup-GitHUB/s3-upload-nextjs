@@ -1,7 +1,7 @@
 import { S3 } from "aws-sdk";
 import { v4 as uuidv4 } from "uuid";
 import { NextResponse } from "next/server";
-import formidable, { File } from "formidable";
+import formidable from "formidable";
 import fs from "fs";
 import { Readable } from "stream";
 import { IncomingMessage } from "http";
